@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+#p1
+{
+color: blue;
+font-size: 50;
+border: 1px solid blue;
+margin:20px;
+text-align:center;
+background-color:yellow;
+}
+body
+{
+background-color:white;
+}
+#d1
+{
+cursor:pointer;
+}
+</style>
+</head>
+<form method="post">
+<body>
+<p id="p1"></p><br><br>
+Name
+<input type="text" name="usrname" required>
+<br>
+<br>
+Enter Password
+<input type="Password" name="n2" size="50">
+<br><br>
+Gender
+<input type="radio" name="n3">Male
+<input type="radio" name="n3">Female
+<br><br>
+<textarea size="100" name="n4" rows>THIS IS A TEXTAREA</textarea>
+<br><br>
+Email
+<input type="email" name="n5" required><br><br>
+<script>
+document.getElementById("p1").innerHTML = "REGISTRATION FORM!";
+</script> 
+
+<input type="submit" name="n6" id="d1" value="ok">
+<input type="reset">
+</form>
+</body>
+</html>
